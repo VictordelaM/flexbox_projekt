@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Merryweather";
-    src: url(../Fonts/Merriweather/Merriweather-Black.ttf);
+    font-family: "Merriweather";
+    src: url(../Fonts/Merriweather/Merriweather-Light.ttf);
 }
 
 @font-face {
@@ -31,6 +31,7 @@ main .einzelbilder .first{
     justify-content: flex-end;
     width: 1296px;
     padding-left: 144px;
+    gap: 27%;
 }
 
 main .einzelbilder .first .text h2{
@@ -48,8 +49,8 @@ main .einzelbilder .first .text p{
     line-height: 38.4px; /* 200% */
 }
 
-main .einzelbilder .first .text .download{
-    color: #FFF;
+main .einzelbilder .first .text .download {
+
     font-family: "Merriweather";
     font-size: 19.2px;
     font-weight: 400;
@@ -60,7 +61,12 @@ main .einzelbilder .first .text .download{
     border-radius: 10px;
 }
 
-main .einzelbilder .first .text .Subscribe{
+main .einzelbilder .first .text .download a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+main .einzelbilder .first .text .Subscribe {
     color: black;
     font-family: "Merriweather";
     font-size: 19.2px;
@@ -72,6 +78,11 @@ main .einzelbilder .first .text .Subscribe{
     border-radius: 10px;
 }
 
+main .einzelbilder .first .text .Subscribe a{
+    color: black;
+    text-decoration: none;
+}
+
 main .einzelbilder .first .bild img{
     height: 500px;
     width: 400px;
@@ -80,11 +91,15 @@ main .einzelbilder .first .bild img{
 main .einzelbilder .second {
     display: flex;
     justify-content: space-around;
-    padding-left: 144px;
+    gap:15%;
+    padding: 0 15%;
+
+
 }
 
 main .einzelbilder .second .text {
     order: 2;
+
 }
 
 main .einzelbilder .second .bild {
@@ -114,8 +129,12 @@ main .einzelbilder .second .bild img{
 main .einzelbilder .third {
     display: flex;
     justify-content: space-around;
-    padding-left: 144px;
+    gap:15%;
+    padding: 0 15%;
+
 }
+
+
 
 main .einzelbilder .third .text h2{
     color: #000;
@@ -137,6 +156,10 @@ main .einzelbilder .third .bild img{
     width: 400px;
 }
 
+main .illustrations{
+    padding: 5% 20% ;
+}
+
 main .illustrations h2{
     color: #000;
     text-align: center;
@@ -156,7 +179,6 @@ main .illustrations p{
 
 main .illustrations div{
     display: flex;
-    width: 100vw;
     justify-content: space-around;
 }
 
@@ -165,12 +187,20 @@ main .illustrations div img{
     height: 306px;
     }
 
+main .illustrations div img:hover{
+    border: 2px solid #0000005b;
+    border-radius: 10px;
+}
+
+
 main .examples h2{
     color: #000;
     text-align: center;
     font-family: "Merriweather";
     font-size: 48px;
     font-weight: 700;
+    padding: 5% 20% 0 ;
+    margin-bottom: -5%;
 }
 
 main .examples p{
@@ -180,6 +210,7 @@ main .examples p{
     font-size: 19.2px;
     font-weight: 400;
     line-height: 38.4px; /* 200% */
+    padding: 0% 20% 2% ;
 }
 
 main .examples div{
@@ -194,7 +225,10 @@ main .examples div img{
     height: 324px;
 }
 
-
+main .examples div img:hover{
+    border: 2px solid #0000005b;
+    border-radius: 10px;
+}
 
 
 main .download_info h2{
@@ -203,6 +237,7 @@ main .download_info h2{
     font-family: "Merriweather";
     font-size: 48px;
     font-weight: 700;
+    padding-top: 10%;
 }
 
 main .download_info p{
@@ -212,6 +247,7 @@ main .download_info p{
     font-size: 19.2px;
     font-weight: 400;
     line-height: 38.4px; /* 200% */
+    padding: 0 30% 5%;
 }
 
 main .membership{
@@ -222,6 +258,7 @@ main .membership{
     width: 360px;
     height: 572px;
     margin: auto;
+    padding-bottom: 10%;
 }
 
 main .membership h3{
@@ -230,6 +267,7 @@ main .membership h3{
     font-family: "Merriweather";
     font-size: 24px;
     font-weight: 700;
+    padding-top: 35%;
 }
 
 main .membership p:first-of-type{
@@ -269,9 +307,9 @@ main .membership button{
     font-family:"Merriweather";
     font-size: 16px;
     font-weight: 400;
-    width: auto;
-    height: 52px;
+    padding: 5% 15%;
     margin: auto;
+    border: none;
 }
 
 
@@ -281,6 +319,7 @@ footer h2{
     font-family: "Merriweather";
     font-size: 48px;
     font-weight: 700;
+    padding-top: 5%;
     }
 
 footer ul:first-of-type{
@@ -306,17 +345,26 @@ footer ul:last-of-type{
     font-weight: 400;
     line-height: 38.4px; /* 200% */
     list-style: none;
+    justify-content: center;
 }
 
-footer ul:last-of-type li:nth-of-type(2){
+footer ul:last-of-type li:nth-of-type(1) a{
+    color: black;
+    text-decoration: none;
+}
+
+footer ul:last-of-type li:nth-of-type(2) a{
     color: yellow;
     text-decoration: none;
 }
 
-footer ul:last-of-type li:nth-of-type(3){
+footer ul:last-of-type li:nth-of-type(3) a{
     color: blue;
+    text-decoration: none;
+    }
+
+footer ul:last-of-type li:nth-of-type(4) a{
+    color: red;
+    text-decoration: none;
 }
 
-footer ul:last-of-type li a:nth-of-type(4){
-    color: red;
-}
