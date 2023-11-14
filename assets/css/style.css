@@ -311,7 +311,7 @@ main .membership ul{
     margin-right: 12.5%;
     }
 
-main .membership button{
+main .membership button a{
     border-radius: 10px;
     background-color: #55ACEE;
     color: #FFF;
@@ -322,6 +322,13 @@ main .membership button{
     padding: 5% 15%;
     margin: auto;
     border: none;
+    text-decoration: none;
+}
+
+main .membership button {
+    border: none;
+    background-color: rgba(85, 172, 238, 0);
+    padding: 5% 15%;
 }
 
 /* ----------footer---------- */
