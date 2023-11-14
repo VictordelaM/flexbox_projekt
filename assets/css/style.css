@@ -1,0 +1,322 @@
+@font-face {
+    font-family: "Merryweather";
+    src: url(../Fonts/Merriweather/Merriweather-Black.ttf);
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(../Fonts/Lato/Lato-Light.ttf);
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 17px;    /*  noch in % ändern  */
+    list-style: none;
+
+}
+
+header nav ul li a{
+    color: #202020;
+    text-align: right;
+    font-family: "Lato";
+    font-size: 19.2px;
+    font-weight: 400;
+    text-transform: uppercase; 
+    text-decoration: none;
+}
+
+main .einzelbilder .first{
+    display: flex;
+    justify-content: flex-end;
+    width: 1296px;
+    padding-left: 144px;
+}
+
+main .einzelbilder .first .text h2{
+    color: #000;
+font-family: "Merriweather";
+font-size: 48px;
+font-weight: 700;
+}
+
+main .einzelbilder .first .text p{
+    color: #202020;
+    font-family: "Merriweather";
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 38.4px; /* 200% */
+}
+
+main .einzelbilder .first .text .download{
+    color: #FFF;
+    font-family: "Merriweather";
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 38.4px; /* 200% */
+    background-color: black;
+    width: 134px;
+    height: 62px;
+    border-radius: 10px;
+}
+
+main .einzelbilder .first .text .Subscribe{
+    color: black;
+    font-family: "Merriweather";
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 38.4px; /* 200% */
+    border: 1px solid rgba(0, 0, 0, 0.437);
+    width: 134px;
+    height: 62px;
+    border-radius: 10px;
+}
+
+main .einzelbilder .first .bild img{
+    height: 500px;
+    width: 400px;
+}
+
+main .einzelbilder .second {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 144px;
+}
+
+main .einzelbilder .second .text {
+    order: 2;
+}
+
+main .einzelbilder .second .bild {
+    order: 1;
+}
+
+main .einzelbilder .second .text h2{
+    color: #000;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 700;
+    }
+
+main .einzelbilder .second .text p{
+    color: #202020;
+    font-family: "Merriweather";
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 38.4px; /* 200% */
+    }
+
+main .einzelbilder .second .bild img{
+    height: 500px;
+    width: 400px;
+}
+
+main .einzelbilder .third {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 144px;
+}
+
+main .einzelbilder .third .text h2{
+    color: #000;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 700;
+}
+
+main .einzelbilder .third .text p{
+    color: #202020;
+    font-family: "Merriweather";
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 38.4px; /* 200% */
+}
+
+main .einzelbilder .third .bild img{
+    height: 500px;
+    width: 400px;
+}
+
+main .illustrations h2{
+    color: #000;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 700;
+    }
+
+main .illustrations p{
+        color: #202020;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 38.4px; /* 200% */
+    }
+
+main .illustrations div{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+main .illustrations div img{
+    width: 360px;
+    height: 306px;
+    }
+
+main .examples h2{
+    color: #000;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 700;
+}
+
+main .examples p{
+    color: #202020;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 38.4px; /* 200% */
+}
+
+main .examples div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 61px;
+    justify-content: center;
+}
+
+main .examples div img{
+    width: 576px;
+    height: 324px;
+}
+
+
+
+
+main .download_info h2{
+    color: #000;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 700;
+}
+
+main .download_info p{
+    color: #202020;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 38.4px; /* 200% */
+}
+
+main .membership{
+    background-color: rgba(85, 172, 238, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    height: 572px;
+    margin: auto;
+}
+
+main .membership h3{
+    color: #000;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+main .membership p:first-of-type{
+    color: #000;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 80px;
+    font-weight: 700;
+}
+
+main .membership p:last-of-type{
+    color: #7E7E7E;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main .membership ul{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    list-style: none;
+    color: #000;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 40px;
+    }
+
+main .membership button{
+    border-radius: 10px;
+    background-color: #55ACEE;
+    color: #FFF;
+    text-align: center;
+    font-family:"Merriweather";
+    font-size: 16px;
+    font-weight: 400;
+    width: auto;
+    height: 52px;
+    margin: auto;
+}
+
+
+footer h2{
+    color: #000;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 700;
+    }
+
+footer ul:first-of-type{
+    color: #7E7E7E;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 38.4px; /* 200% */
+    list-style: none;
+}
+
+footer ul:first-of-type li:nth-of-type(2){
+    color: black;
+}
+
+footer ul:last-of-type{
+    display: flex;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 19.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px; /* 200% */
+    list-style: none;
+}
+
+footer ul:last-of-type li:nth-of-type(2){
+    color: yellow;
+    text-decoration: none;
+}
+
+footer ul:last-of-type li:nth-of-type(3){
+    color: blue;
+}
+
+footer ul:last-of-type li a:nth-of-type(4){
+    color: red;
+}
